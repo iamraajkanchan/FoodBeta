@@ -26,5 +26,5 @@ export default () => {
         searchApi("pasta");
     }, [])
 
-    return [results, errorMessage, searchApi];
+    return {results, errorMessage, searchApi};
 }
